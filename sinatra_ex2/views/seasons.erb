@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> basic html for seasons.rb- HTML basics </title>
+  <link rel="stylesheet" type="text/css" href="style_2.css">
+</head>
+<body>
+
+<% case @month %>
+<% when 12, 1, 2 %>
+<img class="figure" src="https://images.pexels.com/photos/773594/pexels-photo-773594.jpeg?auto=compress&cs=tinysrgb&h=350" alt= winter-image/>
+<% when 3, 4, 5 %>
+<img class="figure" src="https://hips.hearstapps.com/clv.h-cdn.co/assets/17/38/3200x1600/landscape-1506017271-gettyimages-532061691.jpg?resize=480:*" alt=spring-image/>
+<% when 6, 7, 8 %>
+<img class="figure" src="https://www.uww.edu/assets/images/ce/summer/summer_sesh_new_banner%20RESIZE.png"   alt=summer-image />
+<% else %>
+<img class="figure" src="https://images.fox21online.com/wp-content/uploads/2018/09/fall-duluth-experience.jpeg" alt=fall-image />
+<% end %>
+
+</body>
+</html>
